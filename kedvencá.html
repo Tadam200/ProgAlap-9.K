@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. Cím beállítása -->
+    <title>A vörös panda </title>
+    
+    <style>
+        /* 1. Háttérszín és szövegszín */
+        body {
+            background-color: #6abd99;
+            color: #2c1d11;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        /* 2. Bekezdések sorkizárt igazítása */
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* 3. Első kép: Középre igazítva */
+        .kep-kozep {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 8px;
+        }
+
+        /* 3. Második kép: Jobbra lebegtetve */
+        .kep-jobb {
+            float: right;
+            width: 220px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+        /* 4. Táblázat formázása */
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff8f0;
+        }
+
+        th, td {
+            border: 1px solid #8c5a3a;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d97736;
+            color: white;
+        }
+
+        /* Lebegtetés feloldása a táblázat előtt */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Címsor 1 -->
+    <h1>A vörös panda </h1>
+
+    <!-- 1. Címsor 2 -->
+    <h2>Külseje és tulajdonságai</h2>
+
+    <!-- 3. Első kép (Középre igazítva, alt, title és méret beállítva) -->
+    <img class="kep-kozep" 
+         src="./panda.jpg" 
+         alt="Vörös panda a fa ágán" 
+         title="A vörös panda pihenés közben">
+
+    <!-- 2. Első bekezdés (sorkizárt, b és i tagok használatával) -->
+    <p>
+        A <b>vörös panda</b> vagy más néven <i>kis panda</i> a Himalája erdőiben honos, különleges emlősállat. Külseje rendkívül elragadó: bundája <b>vörösesbarna</b>, arca és fülei fehérek, hosszú, gyűrűs farka pedig segíti az egyensúlyozásban a fákon. A kifejlett példányok testhossza körülbelül 50–64 cm, ehhez jön még a 28–59 cm-es dús farok.
+    </p>
+
+    <!-- 1. Címsor 2 (második alkalom) -->
+    <h2>Életmódja és táplálkozása</h2>
+
+    <!-- 3. Második kép (Jobbra lebegtetve a szöveg mellett, alt, title és méret beállítva) -->
+    <img class="kep-jobb" 
+         src="./A_Kis_Panda.jpg" 
+         alt="Vörös panda szemből" 
+         title="Portré egy vörös pandáról">
+
+    <!-- 2. Második bekezdés -->
+    <p>
+        Életmódját tekintve főként <i>éjszakai és szürkületi</i> állat. Idejének nagy részét a fák lombkoronájában tölti, ahol rendkívül ügyesen mozog. Bár a ragadozók rendjébe tartozik, táplálékának nagy részét mégis a <b>bambusz hajtásai</b> és levelei alkotják. Magányos természetű, a többi egyeddel főként csak a párzási időszakban érintkezik.
+    </p>
+
+    <div class="clear"></div>
+
+    <!-- 4. Táblázat készítése (cellaegyesítéssel és legalább 5 adattal) -->
+    <h2>Főbb adatai</h2>
+    <table>
+        <thead>
+            <tr>
+                <!-- Cellaegyesítés oszlopok között (colspan="2") -->
+                <th colspan="2">A vörös panda összefoglaló adatlapja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Testtömeg:</b></td>
+                <td>3 – 6 kg</td>
+            </tr>
+            <tr>
+                <td><b>Testhossz:</b></td>
+                <td>50 – 64 cm (+ farok)</td>
+            </tr>
+            <tr>
+                <td><b>Lábak száma:</b></td>
+                <td>4 láb (mellső lábain hordozza az ún. „álhüvelykujjat”)</td>
+            </tr>
+            <tr>
+                <td><b>Várható élettartam:</b></td>
+                <td>8 – 10 év (fogságban akár 15 év)</td>
+            </tr>
+            <tr>
+                <td><b>Fő tápláléka:</b></td>
+                <td>Bambusz, gyümölcsök, tojás, kisebb madarak</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 5. Felsorolás (unordered list - ul) -->
+    <h2>Kedvenc ételei és jellemzői</h2>
+    <ul>
+        <li>Friss bambushajtások és -levelek</li>
+        <li>Különféle bogyók és érett gyümölcsök</li>
+        <li>Ügyes fára mászó, a farkát egyensúlyozásra használja</li>
+        <li>Sűrű bundája védi a hideg magashegylényi éghajlattól</li>
+    </ul>
+
+    <!-- 5. Számozott lista (ordered list - ol) -->
+    <h2>A vörös panda gondozásának legfontosabb lépései</h2>
+    <ol>
+        <li>Megfelelő, nagy kiterjedésű, fás kifutó biztosítása.</li>
+        <li>Friss bambusz naponta történő bekészítése.</li>
+        <li>Tiszta ivóvíz és hűvös búvóhelyek biztosítása.</li>
+        <li>Rendszeres állatorvosi ellenőrzés és egészségügyi szűrés.</li>
+    </ol>
+
+    <!-- 6. Hivatkozás (új lapon nyílik meg: target="_blank") -->
+    <h2>További információk</h2>
+    <p>
+        Ha szeretnél még többet megtudni a vörös pandákról és védelmükről, látogass el a 
+        <a href="https://www.worldwildlife.org/species/red-panda" target="_blank">WWF hivatalos vörös panda oldalára</a>!
+    </p>
+
+</body>
+</html>
